@@ -1,0 +1,55 @@
+# Windows System Information & Health Report
+
+## Project Overview
+This beginner IT project uses built-in Windows and PowerShell tools to collect basic system information and review hardware resources.
+
+## Operating System
+- Windows edition: Windows 10 Home
+- Windows version: 2009
+- System architecture: 64-bit
+
+## Processor
+- CPU: AMD Ryzen 5 8640HS with Radeon 760M Graphics
+- CPU cores: 6
+- Logical processors: 12
+
+## Memory
+- Installed RAM: 8.0 GB (verified in Task Manager). PowerShell reported approximately 7.3 GB of total physical memory.
+
+## Storage
+- Drive checked: C:
+- Used space: 406.2 GB
+- Free space: 69.45 GB
+- Approximate total: 475.65 GB
+- Approximate free space: 14.6%
+
+## System Uptime
+- Time since last startup at the time of the check: 2 days, 20 hours, 50 minutes
+- Approximate total uptime: 68.8 hours
+
+## Tools Used
+- PowerShell
+- Get-ComputerInfo
+- Get-CimInstance
+- Get-PSDrive
+
+## Initial Observations
+- Windows reported a 64-bit operating system.
+- The processor reported 6 cores and 12 logical processors.
+- The C: drive had approximately 69.45 GB free when checked.
+- System uptime was approximately 2.87 days at the time of collection.
+
+## Limitations
+This report records information returned by Windows commands at the time of testing. The memory result should be verified against Windows Task Manager because the command returned approximately 7.3 GB. This project does not independently certify hardware health or Windows support status.
+
+## Project Scope
+All checks were performed on my own Windows PC. No system settings were changed as part of these information-gathering steps.
+## Battery Health Assessment
+
+- Tool: Windows powercfg battery report
+- Design capacity: 68,000 mWh
+- Full charge capacity: 66,030 mWh
+- Estimated capacity health: 97.1%
+- Capacity difference: 1,970 mWh
+- Assessment: Reported full charge capacity is approximately 97.1% of design capacity.
+- Report file: battery-report.html
