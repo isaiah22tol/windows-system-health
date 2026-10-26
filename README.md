@@ -29,9 +29,11 @@ A beginner-level IT project using built-in Windows tools and PowerShell to colle
 - Estimated battery capacity relative to design: approximately 97.1%.
 
 ## Project Files
-- `findings.txt` — system information and assessment notes.
-- `battery-report.html` — Windows-generated battery report.
 
+- [View System Health Findings](findings.txt) — system specifications, storage information, uptime, and assessment notes.
+- [View Battery Report](battery-report.html) — Windows-generated battery usage and capacity information.
+
+**Privacy note:** Review the battery report for personal or device-identifying information before sharing it publicly.
 ## Limitations
 These findings represent measurements collected at the time of testing. Battery capacity is an estimate and does not independently establish overall battery health. The project does not certify hardware condition or Windows security status.
 
