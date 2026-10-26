@@ -31,7 +31,9 @@ A beginner-level IT project using built-in Windows tools and PowerShell to colle
 ## Project Files
 
 - [View System Health Findings](findings.txt) — system specifications, storage information, uptime, and assessment notes.
-- [View Battery Report](battery-report.html) — Windows-generated battery usage and capacity information.
+- [View Sanitized Battery Report](battery-report-sanitized.html) — Windows-generated battery usage and capacity information.
+
+**Privacy note:** The report was reviewed and identifying details were redacted before sharing publicly.
 
 ## Limitations
 These findings represent measurements collected at the time of testing. Battery capacity is an estimate and does not independently establish overall battery health. The project does not certify hardware condition or Windows security status.
